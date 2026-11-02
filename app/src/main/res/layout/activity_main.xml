@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- Título de la pantalla principal -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Integrantes del equipo"
+        android:textSize="24sp"
+        android:layout_marginBottom="25dp" />
+
+    <!-- Primer integrante -->
+    <TextView
+        android:id="@+id/txtIntegrante1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="SANCHEZ REYES JEAN EMIR" />
+
+    <!-- Segundo integrante -->
+    <TextView
+        android:id="@+id/txtIntegrante2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="SANLUIS GONZELZ JAHIR"
+        android:layout_marginTop="15dp" />
+
+    <!-- Botón para enviar los nombres a la segunda pantalla -->
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar"
+        android:layout_marginTop="25dp" />
+
+</LinearLayout>
