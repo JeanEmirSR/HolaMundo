@@ -13,25 +13,42 @@
         android:id="@+id/lblTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Captura y envio de datos"
+        android:text="Suma de dos numeros"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_marginBottom="25dp" />
 
-    <!-- Campo para capturar el texto que se enviara -->
+    <!-- Primer numero -->
     <EditText
-        android:id="@+id/txtNombre"
+        android:id="@+id/txtNum1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Escribe tu nombre"
-        android:inputType="textPersonName" />
+        android:hint="Numero 1"
+        android:inputType="numberDecimal" />
 
-    <!-- Boton que envia el texto a la segunda pantalla -->
+    <!-- Segundo numero -->
+    <EditText
+        android:id="@+id/txtNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero 2"
+        android:inputType="numberDecimal" />
+
+    <!-- Boton que realiza la suma -->
     <Button
-        android:id="@+id/btnMostrar"
+        android:id="@+id/btnSumar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mostrar"
+        android:text="Sumar"
+        android:layout_marginTop="20dp" />
+
+    <!-- Etiqueta donde se muestra el resultado -->
+    <TextView
+        android:id="@+id/lblResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado:"
+        android:textSize="20sp"
         android:layout_marginTop="20dp" />
 
 </LinearLayout>
