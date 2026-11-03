@@ -13,7 +13,7 @@
         android:id="@+id/lblTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Suma de dos numeros"
+        android:text="Operaciones basicas"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_marginBottom="25dp" />
@@ -34,13 +34,31 @@
         android:hint="Numero 2"
         android:inputType="numberDecimal" />
 
-    <!-- Boton que realiza la suma -->
+    <!-- Botones de las cuatro operaciones -->
     <Button
         android:id="@+id/btnSumar"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sumar"
         android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnRestar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restar" />
+
+    <Button
+        android:id="@+id/btnMultiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplicar" />
+
+    <Button
+        android:id="@+id/btnDividir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dividir" />
 
     <!-- Etiqueta donde se muestra el resultado -->
     <TextView
